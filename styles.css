@@ -4,6 +4,28 @@
 :root{
     font-size: 1.6vw;
 }
+/* For Home Page */
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For Birthday List */
 #container{
     min-height: 100vh;
    display: flex;
@@ -12,8 +34,6 @@
    padding: 50px;
 }
 
-
-/* spacing */
 #table-container{
     max-width: 800px;
 }
